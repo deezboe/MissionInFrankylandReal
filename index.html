@@ -1,38 +1,49 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
-    <head>
-        <title>Mission in Snowdriftland</title>
-        <link rel="icon" type="image/png" href="img/favicon.png">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1243556789546662"
-     crossorigin="anonymous"></script>
-    </head>
-    <body bgcolor="#BDEAF0">
-        <style>
-            body {
+
+<head>
+    <title>Mission in Snowdriftland</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1243556789546662" crossorigin="anonymous"></script>
+</head>
+
+<body bgcolor="#BDEAF0" style="border: 2px solid black;">
+
+    <style>
+        body {
             margin: 0;
             padding: 0;
-            background: url('frankymilky.png'); /* Replace 'your-image.png' with the path to your image */
+            background: url('frankymilky.png');
+            /* Replace 'your-image.png' with the path to your image */
             background-repeat: repeat;
-            background-size: 40px 40px; /* Adjusted size to 40 pixels by 40 pixels */
-            }
-        </style>
-        <center><img src="img/header.png" class="header"></center>
-        <div>
-            <table width="100%" height="100%">
-                <tr>
-                    <td  align="center" valign="top">
-                           <object type="application/x-shockwave-flash" id="stage" data="misnowdriftland_final.swf" width="900" height="578">
-                            <param name="allowScriptAccess" value="sameDomain" />
-                            <param name="movie" value="misnowdriftland_final.swf" />
-                            <param name="quality" value="high" />
-                            <param name="menu" value="false" />
-                                   <a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="578" width="900" border="0" /></a>
-                               <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-                        </object>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </body>
+            background-size: 40px 40px;
+            /* Adjusted size to 40 pixels by 40 pixels */
+        }
+
+        .border-container {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+
+    <center><img src="img/header.png" class="header"></center>
+    <div class="border-container">
+
+        <table width="100%" height="100%">
+            <tr>
+                <td align="center" valign="top">
+                    <object type="application/x-shockwave-flash" id="stage" data="misnowdriftland_final.swf" width="900" height="578" style="border: 2px solid black;">
+                        <param name="allowScriptAccess" value="sameDomain" />
+                        <param name="movie" value="misnowdriftland_final.swf" />
+                        <param name="quality" value="high" />
+                        <param name="menu" value="false" />
+                        <a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="578" width="900" border="0" /></a>
+                        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+                    </object>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
 </html>
